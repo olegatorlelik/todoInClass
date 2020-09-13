@@ -58,6 +58,8 @@ board.addEventListener("click", (event) => {
         arr.splice(index, 1);
         modalWindow.style.visibility = "visible";
         cardRe.remove();
+        reTitle.value = elem.title;
+        reDick.value = elem.dickription;
       }
     });
   }
@@ -69,3 +71,4 @@ saveRe.addEventListener("click", (event) => {
   modalWindow.style.visibility = "hidden";
   board.innerHTML += createElemInBoard(reElem.title, reElem.dickription);
 });
+

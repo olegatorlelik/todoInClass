@@ -1,8 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #board {
-  width: 300px;
-  height: 300px;
-  border: 2px solid black;
+  padding: 30px;
+  width: 50%;
+  border: 2px solid rgba(42, 11, 219, 0.432);
+  border-radius: 30px;
   margin-top: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
 }
 
 .modal {
@@ -19,4 +31,147 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#form {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+#title {
+  border: none;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.842);
+  outline: none;
+  padding: 0 7px 3px 7px;
+  width: 30%;
+  margin: 20px;
+  color: blueviolet;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#discription {
+  border: none;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.842);
+  outline: none;
+  padding: 0 7px 3px 7px;
+  width: 30%;
+  margin: 20px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: blueviolet;
+}
+
+#add {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: blueviolet;
+  width: 30%;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+#card {
+  border: 2px solid greenyellow;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.titleCardTasck {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(100, 6, 6, 0.842);
+}
+
+.cardDisckTasck {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(71, 6, 46, 0.842);
+}
+
+#btnDelet {
+  background: none;
+  border: 2px solid rgba(13, 3, 153, 0.842);
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgba(13, 3, 153, 0.842);
+  margin: 6px;
+}
+
+#btnRe {
+  background: none;
+  border: 2px solid rgba(13, 3, 153, 0.842);
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgba(13, 3, 153, 0.842);
+  margin: 6px;
+}
+
+.error {
+  color: rgba(13, 3, 153, 0.842);
+  font-size: 19px;
+  visibility: hidden;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#reTitle {
+  border: none;
+  border-bottom: 2px solid rgba(42, 231, 25, 0.842);
+  background: none;
+  outline: none;
+  padding: 0 7px 3px 7px;
+  width: 30%;
+  margin: 20px;
+  color: blueviolet;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#reDick {
+  border: none;
+  background: none;
+  border-bottom: 2px solid rgba(42, 231, 25, 0.842);
+  outline: none;
+  padding: 0 7px 3px 7px;
+  width: 30%;
+  margin: 20px;
+  color: blueviolet;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#dataTasck {
+  border: none;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.842);
+  outline: none;
+  padding: 0 7px 3px 7px;
+  width: 30%;
+  margin: 20px;
+  color: blueviolet;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.date {
+  color: blueviolet;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.shawod {
+  box-shadow: 0 5px 0 #3c93d5;
 }
